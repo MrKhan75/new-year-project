@@ -177,6 +177,144 @@ header {
 
 
 
+/* Call Now Section  */
+
+.call-now-section {
+    margin-bottom: 100px;
+}
+
+.call-now-main {
+    height: 300px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0.00) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.call-now-content {
+    padding: 60px 0px 50px 50px;
+}
+
+.call-now-content h2 {
+    margin-bottom: 20px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.call-now-content button:hover {
+    background: transparent;
+    border: 1px solid white;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+
+
+/* Footer Section */
+
+footer {
+    background-color: #151414;
+    height: 450px;
+}
+
+.footer-item>div {
+    width: 50%;
+}
+
+.footer-item {
+    padding: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-future .footer-title {
+    color: #F8F8F8;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-future .footer-describtion {
+    color: #d4d3d3;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-future .email {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 10px 0px;
+}
+
+.footer-future .phone {
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer-social img {
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.footer-subscribe {
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+
+.footer-subscribe .footer-form-title {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-subscribe input[type="email"] {
+    padding: 14px;
+    width: 60%;
+    background: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.footer-subscribe input[type="email"]:focus{
+    outline: none;
+    color: #d4d3d3;
+    font-size: 17px;
+}
+::placeholder {
+    color: #F3F3F3;
+    font-size: 16px;
+    font-weight: 400;
+}
+#footer-btn {
+    background-color: #005FAC;
+    border: none;
+    color: #F3F3F3;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
 
 
 
