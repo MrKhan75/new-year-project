@@ -1,0 +1,71 @@
+/* Genarel Style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary {
+    color: #005FAC;
+    text-align: right;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 20px;
+}
+
+.container {
+    width: 82%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+/* Header Section Design */
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner>div {
+    width: 50%;
+    text-align: right;
+}
+
+.banner-content {
+    padding-top: 120px;
+}
+
+.banner-content h1 {
+    color: #FFF;
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content p {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 25px;
+}
+.banner-content button:hover{
+    background:transparent;
+    border: 1px solid wheat;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+
+/* About Section Design */
