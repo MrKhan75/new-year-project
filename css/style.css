@@ -60,8 +60,9 @@ header {
     line-height: 26px;
     margin-bottom: 25px;
 }
-.banner-content button:hover{
-    background:transparent;
+
+.banner-content button:hover {
+    background: transparent;
     border: 1px solid wheat;
     color: #FFF;
     border-radius: 5px;
@@ -69,3 +70,55 @@ header {
 
 
 /* About Section Design */
+
+.about-section {
+    margin: 100px 0px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.about-content>div {
+    width: 50%;
+}
+
+.about-content img {
+    width: 100%;
+}
+
+.about-content .about-text {
+    margin-top: 80px;
+}
+.about-content .about-text .about-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.about-content .about-text .about-description {
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.about-content .about-text .about-list i{
+    color:#16D887;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style-type: none;
+}
+.about-content .about-text .about-list {
+    color:#444343;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style-type: none;
+}
